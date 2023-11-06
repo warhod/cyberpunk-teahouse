@@ -463,6 +463,7 @@ body {
     font 7s step-end infinite, movement 8s step-end infinite;
 }
 
+/* Cyberpunk Background */
 .environment {
   position: absolute;
   top: 0;
@@ -490,27 +491,15 @@ body {
   text-shadow: 0px 0px 10px rgb(4, 118, 4);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.scanlines {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient( to bottom, rgba(255,255,255,0), rgba(255,255,255,0) 50%, rgba(128,128,128,0.1) 70%, rgba(128,128,128,.15) );
+  background-size: 100% 0.3rem;
+  pointer-events: none;
+  box-shadow: inset 0px 0px 15px 15px rgba(0, 0, 0, 0.75);
 }
 
 @media (prefers-reduced-motion: no-preference) {
