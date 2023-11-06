@@ -13,7 +13,7 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <div className="App-header">        
-        <h1 className='glow'>Random Quote Generator</h1>
+        <h1 className='glow '>AI 発生器</h1>
         <button className="buttonPosition" onClick={getRandomQuote}>Tease Me!</button>
         {randomQuote && <p>{randomQuote}</p>}
         <div className="environment"></div>
