@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import quotes from './../quotes.json'
+import quotes from './../../quotes.json'
 import './App.css'
 
 const App: React.FC = () => {
@@ -14,8 +14,8 @@ const App: React.FC = () => {
     <div className="App">
       <div className="App-header">        
         <h1 className='glow glitch layers'><span>AI 発生器</span></h1>
-        <button className="buttonPosition" onClick={getRandomQuote}>Tease Me!</button>
-        {randomQuote && <p>{randomQuote}</p>}
+        <button className="glow" onClick={getRandomQuote}>Tease Me!</button>
+        {randomQuote && <p id="loading">{randomQuote}</p>}
         <div className="environment"></div>
       </div>
     </div>
