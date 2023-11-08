@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "question": "Which of this is a Dental tool?",
+      "images": [
+        "src/assets/humantest/Dental tools/curved deciduous elevator.png",
+        "src/assets/humantest/Dental tools/incisor luxator.png",
+        "src/assets/humantest/Dental tools/jacquette scaler.png",
+        "src/assets/humantest/Dental tools/miller curette.png",
+        "src/assets/humantest/Dental tools/periosteal elevator.png",
+        "src/assets/humantest/Dental tools/root tip pick.png"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "question": "Which image shows a Human Fetus?",
+      "images": [
+        "src/assets/humantest/Fetuses/cat embryo.png",
+        "src/assets/humantest/Fetuses/dog embryo.png",
+        "src/assets/humantest/Fetuses/elephant embryo.png",
+        "src/assets/humantest/Fetuses/human embryo.png",
+        "src/assets/humantest/Fetuses/mouse embryo.png",
+        "src/assets/humantest/Fetuses/pig embryo.png"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "id": 3,
+      "question": "Which is the Pantone color PMS222?",
+      "images": [
+        "src/assets/humantest/Pantone colors/PMS 195.png",
+        "src/assets/humantest/Pantone colors/PMS 202.png",
+        "src/assets/humantest/Pantone colors/PMS 209.png",
+        "src/assets/humantest/Pantone colors/PMS 216.png",
+        "src/assets/humantest/Pantone colors/PMS 222.png",
+        "src/assets/humantest/Pantone colors/PMS 1955.png"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "question": "Which image shows a Seaweed?",
+      "images": [
+        "src/assets/humantest/Seaweed/arame.png",
+        "src/assets/humantest/Seaweed/dulse.jpg",
+        "src/assets/humantest/Seaweed/porphyra.jpg",
+        "src/assets/humantest/Seaweed/rockweed.jpg",
+        "src/assets/humantest/Seaweed/sargassum.jpg",
+        "src/assets/humantest/Seaweed/sugar kelp.jpg"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 5,
+      "question": "Which image shows the monkeypox virus?",
+      "images": [
+        "src/assets/humantest/Viruses/cold virus.png",
+        "src/assets/humantest/Viruses/dengue.png",
+        "src/assets/humantest/Viruses/flu.png",
+        "src/assets/humantest/Viruses/hepatitis B.png",
+        "src/assets/humantest/Viruses/HIV.png",
+        "src/assets/humantest/Viruses/monkeypox virus.png"
+      ],
+      "correctAnswer": 6
+    }
+]

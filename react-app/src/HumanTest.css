@@ -1,0 +1,8 @@
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 30%); /* Three images per row, each 30% wide */
+    gap: 20px; /* Thick border between rows */
+    justify-content: center; /* Center images horizontally */
+    margin: 0 auto; /* Center images container */
+    width: 90%; /* Maximum width to keep images centered */
+}

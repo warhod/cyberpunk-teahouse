@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
-const quotes = require('./quotes.json');
+const quotes = require('./react-app/src/quotes.json');
 
 app.use(express.json());
 app.use('/', express.static('react-app/dist'));
