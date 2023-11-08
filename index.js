@@ -1,9 +1,13 @@
 const express = require('express');
 const app = express();
+const path = require('path');
+
 const quotes = require('./quotes.json');
 
 app.use(express.json());
-app.use(express.static('react-app/dist'));
+app.use('/', express.static('react-app/dist'));
+app.use('/human', express.static(path.join(__dirname, 'react-app', 'dist')));
+
 const port = process.env.PORT || 8080;
 
 app.listen(port, () => {
