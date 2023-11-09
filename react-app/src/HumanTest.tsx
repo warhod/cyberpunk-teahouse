@@ -3,10 +3,10 @@ import humantest from './humantest.json'
 import './HumanTest.css'
 
 type Test = {
-  id?: number;
-  question?: string;
+  id: number;
+  question: string;
   images: string[];
-  correctAnswer?: number;
+  correctAnswer: number;
 }
 
 const HumanTest: React.FC = () => {
@@ -30,6 +30,15 @@ const HumanTest: React.FC = () => {
   const getRandomHumanTest = () => {
     const randomIndex = Math.floor(Math.random() * humantest.length);
     setCurrentHumanTest(humantest[randomIndex]);
+    setGlowingImage(-1); // Clear the glowing effect on new question
+    setSelectedAnswer(-1); // Clear the selected answer
+    setIsCorrectAnswer(false); // Clear the correctness status
+    setIsDisplayTest(true); // display another test
+  };
+
+  const getNextHumanTest = () => {
+    const nextIndex = currentHumanTest.id % humantest.length;
+    setCurrentHumanTest(humantest[nextIndex]);
     setGlowingImage(-1); // Clear the glowing effect on new question
     setSelectedAnswer(-1); // Clear the selected answer
     setIsCorrectAnswer(false); // Clear the correctness status
@@ -75,7 +84,7 @@ const HumanTest: React.FC = () => {
                 ) : (
                   <div>
                     <p>Wrong! Try Again.</p>
-                    <button onClick={getRandomHumanTest}>Try Again</button>
+                    <button onClick={getNextHumanTest}>Try Again</button>
                   </div>
                 )}
               </div>
