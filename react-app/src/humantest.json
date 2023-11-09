@@ -27,7 +27,7 @@
     },
     {
       "id": 3,
-      "question": "Which is the Pantone color PMS222?",
+      "question": "Which is the Pantone color PMS 222?",
       "images": [
         "images/humantest/Pantone colors/PMS 195.png",
         "images/humantest/Pantone colors/PMS 202.png",
@@ -63,5 +63,70 @@
         "images/humantest/Viruses/monkeypox virus.png"
       ],
       "correctAnswer": 6
+    },
+    {
+      "id": 6,
+      "question": "Which of this is a Cyst removal tool?",
+      "images": [
+        "images/humantest/Dental tools/curved deciduous elevator.png",
+        "images/humantest/Dental tools/incisor luxator.png",
+        "images/humantest/Dental tools/jacquette scaler.png",
+        "images/humantest/Dental tools/miller curette.png",
+        "images/humantest/Dental tools/periosteal elevator.png",
+        "images/humantest/Dental tools/root tip pick.png"
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "id": 7,
+      "question": "Which image shows a Cat Fetus?",
+      "images": [
+        "images/humantest/Fetuses/cat embryo.png",
+        "images/humantest/Fetuses/dog embryo.png",
+        "images/humantest/Fetuses/elephant embryo.png",
+        "images/humantest/Fetuses/human embryo.png",
+        "images/humantest/Fetuses/mouse embryo.png",
+        "images/humantest/Fetuses/pig embryo.png"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "question": "Which is the Pantone color PMS 195?",
+      "images": [
+        "images/humantest/Pantone colors/PMS 195.png",
+        "images/humantest/Pantone colors/PMS 202.png",
+        "images/humantest/Pantone colors/PMS 209.png",
+        "images/humantest/Pantone colors/PMS 216.png",
+        "images/humantest/Pantone colors/PMS 222.png",
+        "images/humantest/Pantone colors/PMS 1955.png"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "question": "Which image shows a sugar kelp?",
+      "images": [
+        "images/humantest/Seaweed/arame.png",
+        "images/humantest/Seaweed/dulse.jpg",
+        "images/humantest/Seaweed/porphyra.jpg",
+        "images/humantest/Seaweed/rockweed.jpg",
+        "images/humantest/Seaweed/sargassum.jpg",
+        "images/humantest/Seaweed/sugar kelp.jpg"
+      ],
+      "correctAnswer": 6
+    },
+    {
+      "id": 10,
+      "question": "Which image shows the flu virus?",
+      "images": [
+        "images/humantest/Viruses/cold virus.png",
+        "images/humantest/Viruses/dengue.png",
+        "images/humantest/Viruses/flu.png",
+        "images/humantest/Viruses/hepatitis B.png",
+        "images/humantest/Viruses/HIV.png",
+        "images/humantest/Viruses/monkeypox virus.png"
+      ],
+      "correctAnswer": 3
     }
 ]
