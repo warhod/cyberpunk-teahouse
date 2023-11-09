@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "question": "Which of this is a Dental tool?",
+      "question": "Which of this is a incisor luxator?",
       "images": [
         "images/humantest/Dental tools/curved deciduous elevator.png",
         "images/humantest/Dental tools/incisor luxator.png",
@@ -14,7 +14,7 @@
     },
     {
       "id": 2,
-      "question": "Which image shows a Human Fetus?",
+      "question": "To prove you're not a robot, choose the Human embryo.",
       "images": [
         "images/humantest/Fetuses/cat embryo.png",
         "images/humantest/Fetuses/dog embryo.png",
@@ -40,7 +40,7 @@
     },
     {
       "id": 4,
-      "question": "Which image shows a Seaweed?",
+      "question": "Which of this is a Dulse seaweed?",
       "images": [
         "images/humantest/Seaweed/arame.png",
         "images/humantest/Seaweed/dulse.jpg",
@@ -53,7 +53,7 @@
     },
     {
       "id": 5,
-      "question": "Which image shows the monkeypox virus?",
+      "question": "Which of this is the monkeypox virus?",
       "images": [
         "images/humantest/Viruses/cold virus.png",
         "images/humantest/Viruses/dengue.png",
@@ -105,7 +105,7 @@
     },
     {
       "id": 9,
-      "question": "Which image shows a sugar kelp?",
+      "question": "Which of this is a sugar kelp?",
       "images": [
         "images/humantest/Seaweed/arame.png",
         "images/humantest/Seaweed/dulse.jpg",
@@ -118,7 +118,7 @@
     },
     {
       "id": 10,
-      "question": "Which image shows the flu virus?",
+      "question": "Which of this is the flu virus?",
       "images": [
         "images/humantest/Viruses/cold virus.png",
         "images/humantest/Viruses/dengue.png",
