@@ -7,6 +7,7 @@ const quotes = require('./react-app/src/quotes.json');
 app.use(express.json());
 app.use('/', express.static('react-app/dist'));
 app.use('/human', express.static(path.join(__dirname, 'react-app', 'dist')));
+app.use('/human/images',express.static('react-app/src/assets'));
 
 const port = process.env.PORT || 8080;
 
