@@ -18,6 +18,7 @@ const App: React.FC = () => {
     </div>
     <button className="glow" onClick={getRandomQuote}>Tease Me!</button>
     {randomQuote && <p className="scanlines">{randomQuote}</p>}
+    <div className="environment"></div>
   </div>;
 
   return (
@@ -27,7 +28,6 @@ const App: React.FC = () => {
           <Route path="/" exact component={Home} />
           <Route path="/human" component={HumanTest} />
         </Switch>
-        <div className="environment"></div>
       </div>
     </div>
   );

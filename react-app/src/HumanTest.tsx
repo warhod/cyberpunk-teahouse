@@ -83,6 +83,7 @@ const HumanTest: React.FC = () => {
           </div>
         )}
       </div>
+      <div className="environment dark"></div>
     </div>
   );
 };
