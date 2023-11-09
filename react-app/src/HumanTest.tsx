@@ -20,7 +20,8 @@ const HumanTest: React.FC = () => {
     setCurrentHumanTest(humantest[randomIndex]);
   };
 
-  const [selectedAnswer, setSelectedAnswer] = useState<number>(0);
+  const [glowingImage, setGlowingImage] = useState<number>(-1); // -1 means no answer is selected initially
+  const [selectedAnswer, setSelectedAnswer] = useState<number>(0); // 0 means no answer is selected.
   const [isCorrectAnswer, setIsCorrectAnswer] = useState<boolean>(false);
   
   const getNextQuestion = () => {
@@ -39,7 +40,11 @@ const HumanTest: React.FC = () => {
               key={index}
               src={image}
               alt={`Image ${index + 1}`}
-              onClick={() => setSelectedAnswer(index)}
+              onClick={() => {
+                setSelectedAnswer(index);
+                setGlowingImage(index);     // Glows image to indicate selection
+              }}
+              className={`glow-image ${glowingImage === index ? 'glowing' : ''}`}
             />
           ))}
         </div>
