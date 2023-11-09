@@ -54,7 +54,7 @@ const HumanTest: React.FC = () => {
                   src={image}
                   alt={`Image ${index + 1}`}
                   onClick={() => {
-                    setSelectedAnswer(index);
+                    setSelectedAnswer(index + 1); // Array index starts at 0
                     setGlowingImage(index);     // Glows image to indicate selection
                   }}
                   className={`glow-image ${glowingImage === index ? 'glowing' : ''}`}
