@@ -6,3 +6,10 @@
     margin: 0 auto; /* Center images container */
     width: 90%; /* Maximum width to keep images centered */
 }
+
+.image-container img {
+    height: auto; /* Maintain the aspect ratio of the images */
+    max-width: 100%; /* Ensure images do not exceed their container */
+    width: 100%; /* Force images to take up the full width of the container */
+    display: block; /* Remove any default inline spacing */
+}
