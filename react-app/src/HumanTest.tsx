@@ -42,7 +42,7 @@ const HumanTest: React.FC = () => {
 
   return (
     <div>
-      <h1 className='glow glitch layers'>CAPTCHAI TEST</h1>
+      <h1 className='glow glitch layers'><span>CAPTCHAI TEST</span></h1>
       <div>
         {isDisplayTest ? (
           <div>
