@@ -472,10 +472,27 @@ body {
   bottom: 0;
   opacity: 0.5;
   filter: blur(5px);
-  background: url(https://images.unsplash.com/photo-1602136773736-34d445b989cb)
-    center repeat-y;
+  background: url(https://images.unsplash.com/photo-1602136773736-34d445b989cb) center repeat-y;
   background-size: cover;
   pointer-events: none; /* prevent this div from blocking clicks */
+}
+
+.environment-dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  height: 100%;
+  width: 100%;
+  background: linear-gradient( to bottom, rgba(255,255,255,0), rgba(255,255,255,0) 50%, rgba(128,128,128,0.1) 70%, rgba(128,128,128,.15) );
+  background-size: 100% 0.3rem;
+  box-shadow: inset 0px 0px 15px 15px rgba(0, 0, 0, 0.75);
+}
+
+.quote {
+  margin: 0.5em 0.5em;
 }
 
 #root {

@@ -12,13 +12,16 @@ const App: React.FC = () => {
     setRandomQuote(quotes[randomIndex].quote);
   };
 
-  const Home: React.FC = () => <div className="App-content">
-    <div className="App-header">        
+  const Home: React.FC = () => 
+  <div className={`App-content ${randomQuote ? 'environment-dark' : ''}`}>
+    <div className="App-header">
         <h1 className='glow glitch layers'><span>AI 発生器</span></h1>
     </div>
-    <button className="glow" onClick={getRandomQuote}>Tease Me!</button>
-    {randomQuote && <p className="scanlines">{randomQuote}</p>}
-    <div className="environment"></div>
+    {randomQuote && <div className="quote">{randomQuote}</div>}
+    {!randomQuote && <div className="environment"></div>}
+    <button className="glow" onClick={getRandomQuote}>
+      {randomQuote ? 'Tease Me More!' : 'Tease Me!'}
+    </button>
   </div>;
 
   return (
